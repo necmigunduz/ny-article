@@ -51,14 +51,25 @@ table {
 
 /* Main CSS */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 * {
-	font-family: Poppins, sans-serif;
+	font-family: 'Lora', serif;
+	font-size: 18px;
+
 }
 
 #top-title {
 	font-family: 'Bebas Neue', cursive;
 	font-size: 60px;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+p, h3 {
+	margin: 10px 450px;
+	padding: 15px;
 }

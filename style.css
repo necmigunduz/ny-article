@@ -73,3 +73,23 @@ p, h3 {
 	margin: 10px 450px;
 	padding: 15px;
 }
+
+#hamburger-menu {
+	width: 15px;
+}
+
+#mag-glass {
+	width: 35px;
+}
+
+#logo-pic {
+	width: 200px;
+}
+
+.nav-link {
+	display: inline;
+}
+
+.page-main-pics {
+	width: 50%;
+}

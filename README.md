@@ -1,10 +1,6 @@
 # Name of the Project
   New York Times article
-# [About the project]
-# [Acknowledgements]
-# [Technologies]
-# [About us]
-
+  
 ## About the project
 This is the first project of the module of HTML/CSS. The goal is to recreate an article from New York Times.
 

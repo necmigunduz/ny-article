@@ -104,3 +104,77 @@ p, h3 {
 	font-size: 13px;
 
 }
+/*For the figure 2*/
+
+.fig-container {
+    display: flex;
+    position: relative;
+    text-align: center;
+    color: black;
+    font-size: 10px;
+		width:80%;
+  }
+
+  .top-left {
+    position: absolute;
+    top: 28%;
+    left: 1%;
+    width: 20%;
+    text-align: left;
+  }
+
+  .top-center-1 {
+    position: absolute;
+    top: 28%;
+    left: 27%;
+    width: 20%;
+    text-align: left;
+  }
+  .top-center-2 {
+    position: absolute;
+    top: 28%;
+    left: 52%;
+    width: 20%;
+    text-align: left;
+  }
+
+  .top-right {
+    position: absolute;
+    top: 28%;
+    left: 78%;
+    width: 20%;
+    text-align: left;  }
+
+  .bottom-left {
+    position: absolute;
+    bottom: 15%;
+    left: 1%;
+    width: 20%;
+    text-align: left;
+  }
+  .bottom-center-1{
+    position: absolute;
+    bottom: 15%;
+    left: 27%;
+    width: 20%;
+    text-align: left;
+  }
+  .bottom-center-2{
+    position: absolute;
+    bottom: 15%;
+    left: 52%;
+    width: 20%;
+    text-align: left;
+  }
+
+  .bottom-right {
+    position: absolute;
+    bottom: 15%;
+    left: 78%;
+    width: 20%;
+    text-align: left;
+  }
+
+.fig-container div p{
+	font-size: 5px;
+}

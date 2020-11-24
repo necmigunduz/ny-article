@@ -69,10 +69,10 @@ table {
 
 #top-title {
 	font-family:"nyt-cheltenham", sans-serif;
-	font-size: 60px;
+	font-size: 30px;
 	font-style: italic;
 	text-align: center;
-
+	padding: 10px 0;
 }
 
 h3 {
@@ -101,7 +101,10 @@ p, h3 {
 }
 
 .page-main-pics {
-	width: 50%;
+	width: 80%;
+	justify-content: center;
+  align-items: center;
+	padding-left: 150px;
 }
 
 #date {
@@ -227,9 +230,40 @@ p, h3 {
 		align-items: center;
 		min-height: 100vh;
 		justify-content: center;
-		border: 1px solid black;
+		flex-wrap: wrap;
+
 	}
 
 	.container-item {
-		border: 1px solid black;
+		align-items: center;
+		justify-content: space-around;
+		margin: 30px;
+		}
+	.fig-caption  {
+		font-size: 15px;
+		padding:0 150px;
+		color: #666;
 	}
+.signup-wrapper{
+	display: flex;
+}
+
+#middle-link{
+	flex: 5;
+	padding-right:0;
+	margin-left: 330px;
+	margin-right:0;
+}
+#btn-signup{
+	flex:1;
+	padding: 0;
+	margin-right:10%;
+	margin-left:0;
+	border-radius: 3%;
+}
+.heading{
+	font-weight: bold;
+}
+#iframe{
+	padding-left: 375px;
+}

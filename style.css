@@ -220,3 +220,16 @@ p, h3 {
 		padding: 11px 12px 8px;
 		border-radius: 3px;
 	}
+
+	.container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		min-height: 100vh;
+		justify-content: center;
+		border: 1px solid black;
+	}
+
+	.container-item {
+		border: 1px solid black;
+	}

@@ -56,7 +56,7 @@ table {
 
 * {
 	font-family: 'Lora', serif;
-	font-size: 18px;
+	font-size: 20px;
 
 }
 
@@ -70,8 +70,10 @@ h3 {
 }
 
 p, h3 {
-	margin: 10px 450px;
+	margin: 10px 325px;
 	padding: 15px;
+	word-spacing: 1px;
+	line-height: 25px;
 }
 
 #hamburger-menu {
@@ -92,4 +94,9 @@ p, h3 {
 
 .page-main-pics {
 	width: 50%;
+}
+
+#date {
+	font-size: 13px;
+
 }

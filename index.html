@@ -7,33 +7,36 @@
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <header>
+    <div class="container">
+    <header class="main-header">
       <nav class="main-nav">
         <ul>
-          <li class="nav-link"><img id="hamburger-menu" src="https://www.flaticon.com/svg/static/icons/svg/55/55002.svg" alt=""></li> <!-- Drop down menu (3 lines)-->
-          <li class="nav-link"><img id="mag-glass" src="https://i.pinimg.com/originals/19/65/ab/1965ab7ef7de87fe748b3c66efbfc73a.jpg" alt=""></li> <!-- Magnifying glass-->
-          <li class="nav-link"><a href="https://www.nytimes.com/section/science/space">Space & Cosmos</a></li> <!-- Space & Cosmos-->
-          <li class="nav-link"><a href="https://www.nytimes.com/"><img id="logo-pic" src="http://clipart-library.com/new_gallery/888495_ny-times-logo-png.png" alt=""></a></li> <!-- Logo of New York Times-->
-          <li class="nav-link"><button type="button" value="subscribe">Subscribe</button></li> <!-- Subscribe Button-->
-          <li class="nav-link"><button type="button" value="login">Log in</button></li> <!-- Login in Button-->
+          <li class="nav-link1 nav-item"><img id="hamburger-menu" src="https://www.flaticon.com/svg/static/icons/svg/55/55002.svg" alt=""></li> <!-- Drop down menu (3 lines)-->
+          <li class="nav-link2 nav-item"><img id="mag-glass" src="https://i.pinimg.com/originals/19/65/ab/1965ab7ef7de87fe748b3c66efbfc73a.jpg" alt=""></li> <!-- Magnifying glass-->
+          <li class="nav-link3 nav-item"><a href="https://www.nytimes.com/section/science/space">Space & Cosmos</a></li> <!-- Space & Cosmos-->
+          <li class="nav-link4 nav-item"><a href="https://www.nytimes.com/"><img id="logo-pic" src="http://clipart-library.com/new_gallery/888495_ny-times-logo-png.png" alt=""></a></li> <!-- Logo of New York Times-->
+          <li class="nav-link5 nav-item"><button type="button" value="subscribe">Subscribe</button></li> <!-- Subscribe Button-->
+          <li class="nav-link6 nav-item"><button type="button" value="login">Log in</button></li> <!-- Login in Button-->
         </ul>
       </nav>
     </header>
-    <main>
-      <article class="">
+    <main class="main-content">
+      <article class="article">
         <h1 id="top-title">Space Ripples Reveal Big Bang's Smoking Gun</h1>
         <figure>
           <img class="page-main-pics" src="https://static01.nyt.com/images/2014/03/18/science/space/18cosmos/18cosmos-superJumbo.jpg?quality=90&auto=webp" alt="Alan Guth">
-          <figcaption>Alan Guth was one of the first physicists to hypothesize the existence of inflation, which explains how the universe expanded so uniformly and so quickly in the instant after the Big Bang 13.8 billion years ago.Credit...Rick Friedman for The New York Times</figcaption>
+          <figcaption class="fig-caption">Alan Guth was one of the first physicists to hypothesize the existence of inflation, which explains how the universe expanded so uniformly and so quickly in the instant after the Big Bang 13.8 billion years ago.Credit...Rick Friedman for The New York Times</figcaption>
         </figure>
         <p><strong>By <a href="#">Dennis Overbye</a></strong></p>
-        <p>March 17, 2014</p>
-        <ul>
-          <li></li> <!--Facebook Icon-->
-          <li></li> <!--Twitter Icon-->
-          <li></li> <!--Email Icon-->
-          <li></li> <!--Share Icon-->
-        </ul>
+        <div class="date-social">
+          <p id="date">March 17, 2014</p>
+          <ul>
+            <li class="social"><a href="https://www.facebook.com/dialog/feed?app_id=9869919170&link=https%3A%2F%2Fwww.nytimes.com%2F2014%2F03%2F18%2Fscience%2Fspace%2Fdetection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html%3Fsmid%3Dfb-share&name=Space%20Ripples%20Reveal%20Big%20Bang%E2%80%99s%20Smoking%20Gun&redirect_uri=https%3A%2F%2Fwww.facebook.com%2F" class="facebook"></</a></li> <!--Facebook Icon-->
+            <li class="social"><a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fwww.nytimes.com%2F2014%2F03%2F18%2Fscience%2Fspace%2Fdetection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html%3Fsmid%3Dtw-share&text=Space%20Ripples%20Reveal%20Big%20Bang%E2%80%99s%20Smoking%20Gun"></a></li> <!--Twitter Icon-->
+            <li class="social"><a href=""></a></li> <!--Email Icon-->
+            <li class="social"><a href="#"></a></li> <!--Share Icon-->
+          </ul>
+        </div>
         <p>
           CAMBRIDGE, Mass. — One night late in 1979, an itinerant young physicist named Alan Guth, with a new son and a year’s appointment at Stanford,
           stayed up late with his notebook and equations, venturing far beyond the world of known physics.<br>
@@ -78,7 +81,7 @@
           is only an infinitesimal patch in a larger cosmos whose extent, architecture and fate are unknowable. Moreover, beyond our own universe there
           might be an endless number of other universes bubbling into frothy eternity, like a pot of pasta water boiling over.<br>
         </p>
-        <h3>'As Big as It Gets'</h3>
+        <h3 class="heading">'As Big as It Gets'</h3>
         <p>In our own universe, it would serve as a window into the forces operating at energies forever beyond the reach of particle accelerators on Earth
           and yield new insights into gravity itself. Dr. Kovac’s ripples would be the first direct observation of
           <a href="http://www.nytimes.com/2016/02/12/science/ligo-gravitational-waves-black-holes-einstein.html">gravitational waves</a>, which, according
@@ -172,7 +175,7 @@
           Corroboration might not be long in coming. The Planck spacecraft will report its own findings this year. At least a dozen other teams are trying
           similar measurements from balloons, mountaintops and space.<br>
         </p>
-        <h3>Spirals in the Sky</h3>
+        <h3 class="heading">Spirals in the Sky</h3>
         <p>
           Gravity waves are the latest and deepest secret yet pried out of the cosmic microwaves, which were discovered accidentally by Arno Penzias
           and Robert Wilson at Bell Labs 50 years ago. They won the Nobel Prize.<br>
@@ -213,7 +216,7 @@
           The strength of the signal surprised the researchers, and they spent a year burning up time on a Harvard supercomputer, making sure they
           had things right and worrying that competitors might beat them to the breakthrough.<br>
         </p>
-        <h3>A Special Time</h3>
+        <h3 class="heading">A Special Time</h3>
         <p>The data traced the onset of inflation to a time that physicists like Dr. Guth, staying up late in his Palo Alto house 35 years ago,
           suspected was a special break point in the evolution of the universe.<br>
         </p>
@@ -265,7 +268,7 @@
         <p>
           “If you trace your cosmic roots,” said Abraham Loeb, a Harvard-Smithsonian astronomer who was not part of the team, “you wind up at inflation.”<br>
         </p>
-        <p><small>A version of this article appears in print on March 18, 2014, Section A, Page 1 of the New York edition with the headline: Space Ripples Reveal Big Bang’s Smoking Gun. <a href="http://www.nytreprints.com/">Order Reprints</a> | <a href="https://www.nytimes.com/section/todayspaper">Today’s Paper</a> | <a href="https://www.nytimes.com/subscriptions/Multiproduct/lp8HYKU.html?campaignId=48JQY">Subscribe</a></small></p>
+        <p><small>A version of this article appears in print on March 18, 2014, Section A, Page 1 of the New York edition with the headline: Space Ripples Reveal Big Bang’s Smoking Gun. <small><a href="http://www.nytreprints.com/">Order Reprints</a> | <a href="https://www.nytimes.com/section/todayspaper">Today’s Paper</a> | <a href="https://www.nytimes.com/subscriptions/Multiproduct/lp8HYKU.html?campaignId=48JQY">Subscribe</a></small></p>
       </article>
       <section>
 
@@ -274,5 +277,6 @@
     <footer>
 
     </footer>
+    </div>
   </body>
 </html>

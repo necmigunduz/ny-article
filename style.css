@@ -70,7 +70,7 @@ h3 {
 }
 
 p, h3 {
-	
+
 	margin: 10px 325px;
 	padding: 15px;
 	word-spacing: 1px;
@@ -87,10 +87,6 @@ p, h3 {
 
 #logo-pic {
 	width: 200px;
-}
-
-.nav-link {
-	display: inline;
 }
 
 .page-main-pics {

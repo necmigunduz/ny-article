@@ -70,7 +70,11 @@ h3 {
 }
 
 p, h3 {
+<<<<<<< HEAD
 	margin: 10px 325px;
+=======
+	margin: 10px 550px;
+>>>>>>> f83ee3bb62e187f3fe108ceaeeafce9f0d586e88
 	padding: 15px;
 	word-spacing: 1px;
 	line-height: 25px;

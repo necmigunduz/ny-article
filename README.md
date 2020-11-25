@@ -2,7 +2,7 @@
 
 > Recreation of New York Times article.
 
-![Project screenshot](project 1 screenshot.png)
+![Project screenshot](Assets/project 1 screenshot.png)
 
 > This project is an attempt to recreate a New York Times article using HTML, CSS and applying position concepts, for example, Flexbox and Floats.
 
@@ -26,7 +26,7 @@ https://necmigunduz.github.io/ny-article/
 
 :bust_in_silhouette: **Author 2**
 
-- GitHub: [@necmigunduz] (https://github.com/necmigunduz)
+- GitHub: [@necmigunduz](https://github.com/necmigunduz)
 - Twitter:
 - LinkedIn:
 

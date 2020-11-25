@@ -9,6 +9,58 @@ body p, h1, h2{
     word-spacing: 5px;
 }
 
+.container-1 {
+	display: flex;
+	height: 60px;
+	width: 100%;
+	margin: 5px 5px;
+}
+
+.container-1 p {
+	margin: 10px 20px;
+	padding-left: 30px;
+	width: 300px;
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 19px;
+	letter-spacing: 0.7px;
+	color: black;
+}
+
+.nav-link {
+	flex:1;
+}
+
+.nav-1 img, .nav-3 img {
+	width: 35px;
+}
+
+.nav-1 {
+	width: 100px;
+}
+
+.nav-1 img {
+	float:left;
+	margin-left: 10px;
+}
+
+.nav-5 button {
+	float: right;
+	width: 25%;
+	height: 40px;
+	margin: 8px 10px;
+	color: rgb(255, 255, 255);
+	background-color: rgb(86, 123, 149);
+	border: 1px solid rgb(50, 104, 145);
+	border-radius: 3px;
+	font-weight: 700;
+	line-height: 11px;
+}
+
+.nav-6 {
+
+}
+
 h1 {
     font-size: 50px;
     font-weight: bolder;
@@ -71,8 +123,6 @@ figcaption {
     color: #666;
 }
 
-
-
 .container-4 {
     font-weight: bolder;
 }
@@ -97,6 +147,8 @@ figcaption {
     margin: 0 550px;
     color: #666;
 }
+
+
 /*CSS for figure 2*/
 
 .fig-container {

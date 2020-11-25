@@ -64,7 +64,6 @@ table {
 * {
 	font-family: 'Lora', serif;
 	font-size: 20px;
-
 }
 
 #top-title {
@@ -96,8 +95,10 @@ p, h3 {
 }
 
 #logo-pic {
-	width: 400px;
-	height: 59.5px;
+	position: relative;
+	left: 45px;
+	width: 25%;
+	height: auto;
 }
 
 .page-main-pics {
@@ -113,22 +114,22 @@ p, h3 {
 /*For the figure 2*/
 
 .fig-container {
-    display: flex;
-    position: relative;
-    color: black;
-    font-size: 10px;
+  display: flex;
+  position: relative;
+  color: black;
+  font-size: 10px;
 	width:65%;
 	margin: 0 auto;
 	top: 20%;
-  }
+}
 
-  .top-left {
-    position: absolute;
-    top: 28%;
-    left: 0%;
-    width: 20%;
+.top-left {
+  position: absolute;
+  top: 28%;
+  left: 0%;
+  width: 20%;
 	text-align: left;
-  }
+}
 
   .top-center-1 {
     position: absolute;
@@ -190,19 +191,24 @@ p, h3 {
 }
 
 .main-nav {
+	position: relative;
 	display: flex;
 	margin: 10px;
 	justify-content: space-between;
 }
 
-.group-link1, .group-link3 {
+.group-link1, .group-link2, .group-link3 {
+	position: relative;
 	display: flex;
 	margin: 0px;
 }
 
 .group-link3 {
-
-}
+	justify-content: space-between;
+	width: 20%;
+	height: auto;
+	border: 1px solid yellow;
+	}
 
 .nav-item {
 	padding-top: 20px;
@@ -222,6 +228,11 @@ p, h3 {
 	color: rgb(255, 255, 255);
 	padding: 11px 12px 8px;
 	border-radius: 3px;
+	text-align: center;
+	width: 100px;
+	height: auto;
+	font-size: 15px;
+	vertical-align: center;
 }
 
 .container {
@@ -242,6 +253,7 @@ p, h3 {
 	font-size: 15px;
 	padding:0 150px;
 	color: #666;
+	text-align: left;
 }
 .signup-wrapper{
 display: flex;
@@ -299,6 +311,7 @@ p {
 
 .middle-container{
 	display: flex;
+	border: 1px solid red;
 }
 
 .container-item{
@@ -310,12 +323,12 @@ p {
 	float:right;
 	width: 30%;
 	text-align: center;
+	bottom: 1000px;
 }
 .aside-container h3{
 	position: relative;
 	text-align: left;
 	margin: 0 auto;
-
 }
 
 .aside-img{
@@ -337,4 +350,10 @@ p {
 	font-size: 15px;
 	float: left;
 	clear: both;
-}	
+}
+.hr1{
+	width: 150px;
+}
+.article{
+	float:left;
+}

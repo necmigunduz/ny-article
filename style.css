@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600&display=swap');
 
+body {
+	overflow-x: hidden;
+}
+
 body p, h1, h2{
     margin: 40px 550px;
     text-align: left;

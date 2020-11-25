@@ -32,7 +32,7 @@ body p, h1, h2{
 }
 
 .nav-link {
-		flex:1;
+		flex: 1;
 }
 
 .nav-1 img, .nav-3 img {
@@ -44,7 +44,7 @@ body p, h1, h2{
 }
 
 .nav-1 img {
-		float:left;
+		float: left;
 		margin-left: 10px;
 }
 
@@ -154,7 +154,7 @@ figcaption {
 	  position: relative;
 	  color: black;
 	  font-size: 10px;
-	  width:65%;
+	  width: 65%;
 	  margin: 0 auto;
 	  top: 20%;
 }
@@ -199,7 +199,7 @@ figcaption {
 	  text-align: left;
 }
 
-.bottom-center-1{
+.bottom-center-1 {
 	  position: absolute;
 	  bottom: 13%;
 	  left: 27%;
@@ -207,7 +207,7 @@ figcaption {
 	  text-align: left;
 }
 
-.bottom-center-2{
+.bottom-center-2 {
 	  position: absolute;
 	  bottom: 13%;
 	  left: 52%;

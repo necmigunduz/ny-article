@@ -1,3 +1,5 @@
+/* stylelint-disable indentation */
+
 /* CSS for footer */
 
 .container-23 {
@@ -7,7 +9,7 @@
     width: 1000px;
     height: auto;
     padding-top: 20px;
-    margin: 0 200px;
+    margin: 0 480px;
 }
 
 .container-24 {
@@ -150,4 +152,46 @@
     border-bottom: 0.5px solid black;
     padding-bottom: 12px;
     width: 300px;
+}
+
+/* Aside Styles */
+
+.aside-container {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    width: 400px;
+    height: 550px;
+    right: 60px;
+    top: 175%;
+}
+
+.aside-container h4 {
+    font-size: 20px;
+    margin: 20px 10px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid grey;
+}
+
+.aside-container img {
+    width: 120px;
+    height: 120px;
+    float: left;
+    padding-left: 20px;
+
+}
+
+.aside-container p {
+    width: 200px;
+    margin: 0;
+    font-size: 20px;
+    float: right;
+    padding-top: 15px;
+    padding-right: 30px;
+
+}
+
+.aside-item {
+    padding-top: 20px;
+    flex: 1;
 }

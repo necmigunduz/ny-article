@@ -38,12 +38,14 @@
     position: relative;
     border-bottom: 2px solid black;
 }
+
 .container-24a-item {
     width: 180px;
     height: 250px;
     font-size: 10px;
     text-align: left;
 }
+
 .container-24a-item p {
     font-size: 11px;
     margin-top: 10px;
@@ -60,12 +62,13 @@
     padding: 5px;
     font-weight: 700;
 }
+
 .container-24a-item img {
     position: absolute;
-    align-content: left;
     width: 80px;
     height: 80px;
 }
+
 .container-24b {
     display: flex;
     flex-wrap: wrap;
@@ -84,7 +87,6 @@
 
 .container-24b-item img {
     position: absolute;
-    align-content: left;
     width: 150px;
     height: 100px;
     margin: 5px 5px;
@@ -114,7 +116,6 @@
 
 .container-24c-item img {
     position: absolute;
-    align-content: left;
     width: 150px;
     height: 100px;
     margin: 5px 5px;
@@ -178,7 +179,6 @@
     height: 120px;
     float: left;
     padding-left: 20px;
-
 }
 
 .aside-container p {
@@ -188,7 +188,6 @@
     float: right;
     padding-top: 15px;
     padding-right: 30px;
-
 }
 
 .aside-item {

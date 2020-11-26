@@ -50,7 +50,8 @@ img {
   flex: 1;
 }
 
-.nav-1 img, .nav-3 img {
+.nav-1 img,
+.nav-3 img {
   width: 35px;
 }
 

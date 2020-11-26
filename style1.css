@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600&display=swap');
+
+body {
+  overflow: hidden;
+}
+
+body p, h1, h2 {
+  margin: 40px 550px;
+  text-align: left;
+  font-size: 20px;
+  font-family: Lora, sans-serif;
+  line-height: 28px;
+  word-spacing: 5px;
+}
+
+.container-1 {
+  display: flex;
+  height: 60%;
+  width: 100%;
+  margin: 5px 5px;
+}
+
+.container-1 p {
+  margin: 10px 20px;
+  padding-left: 30px;
+  width: 300px;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0.7px;
+  color: black;
+}
+
+.nav-link {
+  flex: 1;
+}
+
+.nav-1 img, .nav-3 img {
+  width: 35px;
+}
+
+.nav-1 {
+  width: 100px;
+}
+
+.nav-1 img {
+  float: left;
+  margin-left: 10px;
+}
+
+.nav-5 button {
+  float: right;
+  width: 25%;
+  height: 40px;
+  margin: 8px 10px;
+  color: rgb(255,255,255);
+  background-color: rgb(86,123,149);
+  border: 1px solid rgb(50,104,145);
+  border-radius: 3px;
+  font-weight: 700;
+  line-height: 11px;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bolder;
+  line-height: 65px;
+  word-spacing: 4px;
+  font-style: italic;
+}
+
+p {
+  max-width: 800px;
+  margin-top: 0;
+  width: calc(100%-40px);
+}
+
+.container-13 {
+  display: flex;
+  margin: 0 550px;
+}
+
+.container-13a {
+  margin: 0;
+  flex: 3;
+}
+
+.container-13b {
+  flex: 0.5;
+  margin: 20px 15px;
+  background-color: white;
+  color: #333;
+  border: 1px solid black;
+  border-radius: 3px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  height: 400px;
+}
+
+figcaption {
+  display: block;
+  margin: 0 378px;
+  color: #666;
+}
+
+.container-4 {
+  font-weight: bolder;
+}
+
+.container-5 p {
+  font-size: 18px;
+}
+
+.container-7 hr {
+  width: 20%;
+}
+
+.container-7 p {
+  font-weight: bolder;
+  text-align: center;
+}
+
+.container-15 p {
+  display: block;
+  margin: 0 550px;
+  color: #666;
+}
+
+/* CSS for figure 2 */
+
+.fig-container {
+  display: flex;
+  position: relative;
+  color: black;
+  font-size: 10px;
+  width: 65%;
+  margin: 0 auto;
+  top: 20%;
+}
+
+.top-left {
+  position: absolute;
+  top: 28%;
+  left: 0;
+  width: 20%;
+  text-align: left;
+}
+
+.top-center-1 {
+  position: absolute;
+  top: 28%;
+  left: 27%;
+  width: 20%;
+  text-align: left;
+}
+
+.top-center-2 {
+  position: absolute;
+  top: 28%;
+  left: 52%;
+  width: 20%;
+  text-align: left;
+}
+
+.top-right {
+  position: absolute;
+  top: 28%;
+  left: 78%;
+  width: 20%;
+  text-align: left;
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 13%;
+  left: 1%;
+  width: 20;
+  text-align: left;
+}
+
+.bottom-center-1 {
+  position: absolute;
+  bottom: 13%;
+  left: 27%;
+  width: 20%;
+  text-align: left;
+}
+
+.bottom-center-2 {
+  position: absolute;
+  bottom: 13%;
+  left: 52%;
+  width: 20%;
+  text-align: left;
+}
+
+.bottom-right {
+  position: absolute;
+  bottom: 13%;
+  left: 78%;
+  width: 20%;
+  text-align: left;
+}

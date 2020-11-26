@@ -2,7 +2,7 @@
 
 > Recreation of New York Times article.
 
-![screenshot](ny-article/Assets/project 1 screenshot.png?raw=true)
+![screenshot](/home/leandro/Desktop/Microverse/ny-article/Assets/project 1 screenshot.png)
 
 > This project is an attempt to recreate a New York Times article using HTML, CSS and applying position concepts, for example, Flexbox and Floats.
 

@@ -40,18 +40,38 @@
 .footer {
   display: flex;
   margin: 0 50px;
-  width: 1200px;
+  width: 400px;
   font-size: 20px;
   font-weight: 400;
 }
 
 .footer h5 { font-weight: 900; }
 
-.footer ul { width: 800px; }
+.footer ul { width: 350px; }
 
 .bold { font-weight: 900; }
 
 .footer hr {
   display: flex;
-  width: 75%;
+  width: 40%;
+}
+
+.footer-lg-container {
+  display: flex;
+  width: 1200px;
+  margin: 0 80px;
+}
+
+.news-to-more-container {
+  display: flex;
+  width: 800px;
+}
+
+.subscribe-container {
+  border-left: 1px solid lightgray;
+  padding-left: 10px;
+}
+
+.subscribe-container hr {
+  width: 95px;
 }

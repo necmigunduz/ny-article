@@ -75,3 +75,8 @@
 .subscribe-container hr {
   width: 95px;
 }
+
+.s-container-1 { 
+  border-bottom: 1px solid lightgray; 
+  width: 125px;
+}

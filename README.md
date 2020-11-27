@@ -1,6 +1,6 @@
 # Project 1: Positioning and Floating Elements
 
-> Recreation of New York Times article.
+> Recreation of New York Times article. The Article is shortened in this project for simplifying our work. 
 
 ![image](./project-1-screenshot.jpg)
 

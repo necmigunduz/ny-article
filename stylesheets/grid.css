@@ -45,12 +45,13 @@
   font-weight: 400;
 }
 
-.footer h5 { font-weight: 900;}
+.footer h5 { font-weight: 900; }
 
 .footer ul { width: 800px; }
 
 .bold { font-weight: 900; }
 
-.footer hr { 
+.footer hr {
   display: flex;
-  width: 75%; }
+  width: 75%;
+}

@@ -1,0 +1,11 @@
+:root {
+  --font-family-default: inter;
+  --gray-50: #f7f7f7;
+  --gray-300: #d4d4d8;
+  --gray-400: #a1a1aa;
+  --gray-500: #71717a;
+  --gray-700: #3f3f46;
+  --gray-900: #18181b;
+  --primary: rgb(86, 123, 149);
+  --primary-dark: rgb(50, 104, 145);
+}

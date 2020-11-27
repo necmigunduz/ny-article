@@ -1,0 +1,35 @@
+.editor-picks {
+  float: right;
+  margin-left: auto;
+}
+
+.editor-picks-list {
+  margin-top: 12px;
+}
+
+.editor-picks-list > * + * {
+  margin-top: 16px;
+}
+
+.editor-picks-item {
+  display: flex;
+  align-items: center;
+  color: var(--gray-900);
+  text-decoration: none;
+}
+
+.editor-picks-item h5 {
+  max-width: 130px;
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 8px;
+}
+
+.editor-picks-item:hover h5 {
+  text-decoration: underline;
+}
+
+.editor-picks-item img {
+  height: 60px;
+  width: auto;
+}

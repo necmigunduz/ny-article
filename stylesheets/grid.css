@@ -1,0 +1,31 @@
+.grid {
+  display: grid;
+}
+
+.grid-column-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.grid-column-12 {
+  grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+
+.col-1 {
+  grid-column: span 1 / span 1;
+}
+
+.col-3 {
+  grid-column: span 3 / span 3;
+}
+
+.col-9 {
+  grid-column: span 9 / span 9;
+}
+
+.grid-column-gap {
+  column-gap: 24px;
+}
+
+.grid-column-gap-lg {
+  column-gap: 48px;
+}

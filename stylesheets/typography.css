@@ -1,0 +1,39 @@
+.text-small {
+  font-size: 13px;
+}
+
+.text-large {
+  font-size: 18px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.text-gray-500 {
+  color: var(--gray-500);
+}
+
+.text-gray-700 {
+  color: var(--gray-700);
+}
+
+.text-primary {
+  color: var(--primary-dark);
+}
+
+.text-gray-900 {
+  color: var(--gray-900);
+}

@@ -1,0 +1,28 @@
+.article-title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 800;
+}
+
+.article-feature-cap {
+  font-size: 14px;
+  color: var(--gray-700);
+  max-width: 56rem;
+  margin: 8px auto 0 auto;
+}
+
+.article-meta-media {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+.article-p {
+  font-size: 17px;
+  line-height: 24px;
+}
+
+.article-p:not(:first-of-type) {
+  margin-top: 16px;
+}

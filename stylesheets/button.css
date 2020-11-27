@@ -1,0 +1,33 @@
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  position: relative;
+  border-radius: 4px;
+  padding: 4px 12px;
+  border: 1px solid transparent;
+  font-weight: 500;
+  transition: all 150ms ease-in-out;
+  text-align: center;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.btn-icon {
+  padding: 4px;
+  color: var(--gray-500);
+}
+
+.btn-icon:hover {
+  color: var(--gray-700);
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-dark);
+}

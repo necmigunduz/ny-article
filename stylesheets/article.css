@@ -3,7 +3,7 @@
   font-size: 32px;
   font-weight: 800;
   font-style: italic;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, "Times New Roman", Times, serif;
   width: 450px;
   margin: 0 400px;
 }
@@ -27,6 +27,4 @@
   line-height: 24px;
 }
 
-.article-p:not(:first-of-type) {
-  margin-top: 16px;
-}
+.article-p:not(:first-of-type) {margin-top: 16px;}

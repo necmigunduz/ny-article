@@ -27,4 +27,4 @@
   line-height: 24px;
 }
 
-.article-p:not(:first-of-type) {margin-top: 16px;}
+.article-p:not(:first-of-type) { margin-top: 16px; }

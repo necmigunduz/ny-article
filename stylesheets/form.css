@@ -1,0 +1,74 @@
+form {
+    box-sizing: border-box;
+    border: 1px solid grey;
+    border-radius: 1em;
+    box-shadow: 5px 5px #888888;
+    margin: 30px auto;
+    width: 50%;
+    height: 500px;
+    padding: 2em;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    margin: 15px auto;
+    padding: 5px;
+}
+
+
+textarea {
+    vertical-align: top;
+}
+
+.user-information {
+    height: 250px;
+    margin-top: 1px;
+    padding: 10px;
+    justify-content: space-around;
+    font: 1em sans-serif;
+}
+
+.btn-send {
+    width: 100px;
+    height: 50px;
+    justify-content: center;
+}
+
+#send-button {
+    border: transparent;
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: #8f8b8d;
+    color: white;
+}
+
+.user-information label {
+    display: inline-block;
+    text-align: left;
+}
+
+.user-information label input {
+    margin-left: 33px;
+}
+
+#user-name,
+#user-email,
+#user-comment {
+    font: 1em sans-serif;
+    width: 400px;
+    background-color: #d4d3d4;
+    border: 1px solid grey;
+}
+
+::placeholder {
+    color: #949193;
+    opacity: 1;
+}
+
+input:focus,
+textarea:focus {
+    border-color: black;
+}

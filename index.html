@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="./stylesheets/typography.css" />
     <link rel="stylesheet" href="./stylesheets/spacing.css" />
     <link rel="stylesheet" href="./stylesheets/flex.css" />
+    <link rel="stylesheet" href="./stylesheets/form.css">
   </head>
   <body>
     <header class="header">
@@ -442,6 +443,38 @@
             </div>
           </div>
         </article>
+        <form>
+          <fieldset class="user-information">
+            <label for="user-name">
+              Name:
+              <input type="text" name="name" maxlength="20" id="user-name" required>
+            </label>
+            <label for="user-email">
+              Email:
+              <input type="email" name="email" maxlength="20" id="user-email" placeholder="name@domain.com" required>
+            </label>
+            <label for="user-comment">
+              Comment:
+              <textarea name="comment" id="user-comment" maxlength="250" placeholder="Type your comment here..." required></textarea>
+            </label>
+          </fieldset>
+          <fieldset class="pnn-option">
+            <legend>What is your overall opinion about this article?</legend>
+            <label for="opinion">
+              <input type="radio" name="opinion" id="opinion" value="positive"> Positive
+              <input type="radio" name="opinion" id="opinion" value="negative"> Negative
+              <input type="radio" name="opinion" id="opinion" value="neutral"> Neutral
+            </label>
+          </fieldset>
+          <fieldset class="news-letter">
+            <label for="newsletter">
+              <input type="checkbox" name="newsletter" id="newsletter" value="accepted"> I want to subscribe to the newsletter
+            </label>
+          </fieldset>
+          <fieldset class="btn-send">
+            <button id ="send-button" type="submit">Send</button>
+          </fieldset>
+        </form>
         <div class="grid grid grid-column-12 marg-top-10 grid-column-gap-lg">
           <section class="col-9">
             <h4 class="text-gray-900 font-semibold text-small">
